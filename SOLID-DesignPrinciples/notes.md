@@ -16,5 +16,5 @@ Essentially the Journal should take care of the journal entries and the journal 
 
 ## Example file:
 
-- `Journal.cpp`
-- `PersistenceMananger.cpp`
+- `Journal.hpp`
+- `PersistenceMananger.hpp`
