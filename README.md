@@ -13,3 +13,8 @@ cmake -B <build_dir_different_from_source_dir> -S <source_dir>
 cd build_dir_different_from_source_dir
 make VERBOSE=1
 ```
+
+## Contents
+
+- link:SOLID Design Principles[SOLID-DesignPrinciples].
+
