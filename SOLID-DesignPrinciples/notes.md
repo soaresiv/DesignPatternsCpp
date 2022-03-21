@@ -1,5 +1,10 @@
 # SOLID Design Principles: C++
 
+The SOLID ideas are
+
+- The single-responsibility principle: Every class should have only one responsibility.
+- The open–closed principle: "Software entities, should be open for extension, but closed for modification.
+
 ## Single Responsibility Principle
 
 **Single responsibility principle**  basically states that a class should have a single reason to change. A class should have a primary responsibility and it should not take up other responsibilities.
@@ -14,7 +19,18 @@ If you're working on a dozen other domains objects and you give every one of the
 
 Essentially the Journal should take care of the journal entries and the journal title. But if you want to persist it on a file, you need to have a separated class to save the Journal.
 
-## Example file:
+### Example file:
 
 - `Journal.hpp`
 - `PersistenceMananger.hpp`
+
+## Open and Close principle
+
+**Open and Close principle** means that your class should be open to be extend but close to modifications. So, your class should allow to be extended(e.g by inheritance) and without modifying its source code. 
+
+In our example code we created a filter to match some items with a given specification.The specification is going to be very generic and is going to inherit from a specification of type T. Doing this, you would never require yourself to go back into the filter interface to change a the filter specification.
+
+### Example file:
+
+- `Product.hpp`
+- `ProductFilter.hpp`
