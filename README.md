@@ -15,6 +15,5 @@ make VERBOSE=1
 ```
 
 ## Contents
-
-- link:SOLID Design Principles[SOLID-DesignPrinciples].
+- [SOLID Design Principles](/SOLID-DesignPrinciples/notes.md)
 
